@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-around;
+    align-items: center;
+    height: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
