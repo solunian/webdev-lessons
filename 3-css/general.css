@@ -1,0 +1,23 @@
+/*
+Common Styling:
+
+Selectors:
+div {} - element selector
+#id {} - id selector
+.class {} - class selector
+* {} - everything selector
+div>.class {} - elements of class inside a div
+div+.class {} - elements of class right after div
+etc.
+
+Properties:
+
+background-color, color, opacity
+font-family, font-size, font-weight
+text-align, text-indent, letter-spacing, text-shadow
+border-radius
+display: flex/inline/inline-block/block
+!important
+
+box model: width, height, padding, border, margin
+*/

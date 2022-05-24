@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How To Style With CSS</title>
+    <link href="external.css" rel="stylesheet">
+
+    <style>
+        .internal {
+            border: 2px dashed blue;
+            text-align: center;
+            width: fit-content;
+            padding: 45px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+        <div style="border: 1px dotted red; text-align: center; width: fit-content; padding: 45px;">
+            Hello! I've been styled with the inline style attribute.
+        </div>
+
+        <div class="internal">
+            Hola! I've been styled with the internal style tag.
+        </div>
+
+        <div class="external">
+            Ni Hao! I've been styled with an external css file. I am the best practice!
+        </div>
+    </div>
+
+
+</body>
+
+</html>
